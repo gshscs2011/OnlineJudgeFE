@@ -132,7 +132,8 @@
     },
     data () {
       return {
-        pageSize: 10,
+        // pageSize : 10 -> 100 change 2021.2.23
+        pageSize: 100,
         total: 0,
         problemList: [],
         keyword: '',
